@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./SCSS/style.css">
+</head>
+<body>
+    <header id="HOME">
+        <nav>
+            <section role="menubar">   
+                <span id="m">M</span>
+                <span id="hamburgerMenu" onclick="slideEffect();">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+                </span>
+                <span id="nu">NU</span>
+            </section>
+
+            <ul id="menuitem">
+                <li> <a href="#HOME" onclick="slideEffect();"><img src="./icons/whiteHome.png" alt="home"></a> </li>
+                <li> <a href="#ABOUT" onclick="slideEffect();"><img src="./icons/whiteAboutMe.png" alt="about me"></a> </li>
+                <li> <a href="#SKILLS" onclick="slideEffect();"><img src="./icons/whiteSkill.png" alt="skills"></a> </li>
+                <li> <a href="#PROJECTS" onclick="slideEffect()";><img src="./icons/whiteProjects.png" alt="project"></a> </li>
+                <li> <a href="#CONTACT" onclick="slideEffect('f')";><img src="./icons/whiteContactUs.png" alt="contact us"></a> </li>
+            </ul>
+        
+        </nav>
+        <author>
+            <h1>HI, IAM</h1>
+            <h1>SHIVA KAMAT</h1>
+            <P>Web Developer</P>
+        </author>
+    </header>
+    <main>
+        <section id="ABOUT" role="about">
+            <h2>Hello</h2>
+            <p>
+                I am SHIVANAGOUDA KAMAT. I have completed <abbr title="Bachlor of Engineering">B.E</abbr> in 2019. At the end of the year 2020 I started learning Web Development as a hoby (i got intrest in programming scince I was first intrudused to 'C' language in my first year of engineering). It was so fascinating that I started learing more about it and finally desided to build my career in Web Development.<br><br>
+                Currently I am looing for an Internship/Apprenstiship where I am put to work on real chllanges of webdevelopment and guided by the seniors whenever I need help & training.   
+            </p>
+            <h2>My Education Profile</h2>
+            <p> Name of Course : SSLC.                                       <br>
+                Name of educational institution: B.B.Ganachari High School <br>
+                Years attended : 2012 - 2013. <br>
+                Location of the program :Marakumbi, Bailhongal, Karnataka. <br>
+                Percentage : 89.86. <br><br><br>
+                Name of Course : PUC.                                       <br>
+                Name of educational institution: PRISM P.U College <br>
+                Years attended : 2013 - 2015. <br>
+                Location of the program :Dharwad, Karnataka. <br>
+                Percentage : 83.50. <br><br><br>
+                Name of Course : Engineering.                                       <br>
+                Name of educational institution: Basaveshwar Engineering College <br>
+                Years attended : 2015 - 2019. <br>
+                Location of the program : Bagalkot, Karnataka. <br>
+                Percentage : 79.50. <br><br><br>
+            </p>
+        </section>
+        <section id="SKILLS" role="skills">
+            <h2>Language Skills</h2>
+            <h3>HTML 5</h3>
+            <span class="p70">70%</span>
+            <h3>CSS 3</h3>
+            <span id="p80">80%</span>
+            <h3>JavaScript</h3>
+            <span class="p70">70%</span>
+            <h3>Reactjs</h3>
+            <span id="p20">20%</span>
+            <h3>Website Optimisation</h3>
+            <span id="p50">50%</span>
+            <h3>Github</h3>
+            <span id="p40">40%</span>
+        </section>
+        <section id="PROJECTS" role="projects">
+            <h2>My Projects</h2>
+            <div role="card">
+                <img src="./images/calculator.jpg" alt="Calculator">
+                <p>
+                    An electronic calculator is typically a portable electronic device used to perform calculations, ranging from basic arithmetic to complex mathematics. But this is a simple non-portable virtual calculator which performs the most common
+                    arithmetic operations. It have cool design and buttons are
+                    arranged nicely using CSS grid. I used JavaScript to receive
+                    input, perform computation and display the correct result on
+                    "screen". and also the clear and clear all buttons are included. This will also show you the result of each operation that you perform you can continue to perform as many operations as you need once you click 'equal sign' buttton it will clear all tempervory result and tell you the final result. Please do <a href="https://github.com/SHIVANAGOUDA-KAMAT">check</a> this out...
+                </p>
+            </div>
+            <div role="card">
+                <img src="./images/contactManager.jpg" alt="contacts Book">
+                <p>
+                    A contact manager is a software program that enables users to easily store and find contact information, such as names, addresses, and telephone numbers. They are contact-centric databases that provide a fully integrated approach to tracking all information and communication activities linked to contacts. This is a basic contacts app where you can add and delete the contacts. It have cool layout and makes use of local storage. I used JavaScript to receive
+                    input name and number and store them in local storage, and display the stored contacts on "screen". Please do <a href="https://github.com/SHIVANAGOUDA-KAMAT">check</a> this out...
+                </p>
+            </div>
+            <div role="card">
+                <img src="./images/calender.jfif" alt="calender">
+                <p>
+                    A calendar is a system of organizing days. This is done by giving names to periods of time, typically days, weeks, months and years. A date is the designation of a single, specific day within such a system. A calendar is also a physical record (often paper) of such a system. A calendar can also mean a list of planned events, such as a court calendar or a partly or fully chronological list of documents, such as a calendar of wills. This is a basic calendar. It is nice and simple design and contains "Previous" and "Next" buttons to move to next or previous month. I used JavaScripts "Date Object"  to show the dates on "screen". Please do <a href="https://github.com/SHIVANAGOUDA-KAMAT">check</a> this out...
+                </p>
+            </div>
+            <div role="card">
+                <img src="./images/Tic Tac Toe.jfif" alt="Tic Tac Toe">
+                <p>
+                    This game is for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players. In order to win the game, a player must place three of their marks in a horizontal, vertical, or diagonal row. One of the best old school games, "Tic-Tac-Toe" it's a two player game. I have designed simple UI for this game. The slots are arranged nicely using CSS grid. I used JavaScript to get the player input and write on slots. it also loops through the combination to find the winning series and displays the winner if any Please do <a href="https://github.com/SHIVANAGOUDA-KAMAT">check</a> this out...
+                </p>
+            </div>
+        </section>
+        <section id="CONTACT" role="contact_us">
+            <h2>Contact Form(Demo)</h2>
+            <form>
+                
+                <input type="text" placeholder="First Name..">
+                <input type="text" placeholder="Your last name..">
+                <input type="email" placeholder="Enter your Email..">
+                <label for="subject">Feedback</label>
+                <textarea id="subject" placeholder="Write your Feedback.." style="height:150px"></textarea>
+                <button type="submit">Submit</button>
+                <address>
+                    <h4>Mail me @</h4>
+                    <p>shivanagoudakamat19@gmail.com
+                </address>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/shivanagouda-kamat"><img src="./icons/linkedin48.png" alt="linkedin"></a>
+        <a href="https://github.com/SHIVANAGOUDA-KAMAT"><img src="./icons/github48.png" alt="Github"></a>
+    </footer>
+</body>
+<script src="./JavaScript/main.js"></script>
